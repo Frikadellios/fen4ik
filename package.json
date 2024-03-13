@@ -1,0 +1,56 @@
+{
+  "name": "fen4ik",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frikadellios/fen4ik.git"
+  },
+  "author": "Hrihorii Ilin <devopsick@pm.me>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@biomejs/biome": "1.6.1",
+    "@types/bun": "latest",
+    "svelte-adapter-bun": "^0.5.2",
+    "unplugin-turbo-console": "^1.4.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^2.2.0",
+    "@astrojs/node": "^8.2.3",
+    "@astrojs/react": "^3.1.0",
+    "@astrojs/sitemap": "^3.1.1",
+    "@astrojs/svelte": "^5.2.0",
+    "@astrojs/vue": "^4.0.8",
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@types/react": "^18.2.65",
+    "@types/react-dom": "^18.2.22",
+    "astro": "^4.5.2",
+    "astro-bun": "^0.0.5-beta",
+    "million": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "svelte": "^4.2.12",
+    "typescript": "^5.4.2",
+    "unplugin-auto-import": "^0.17.5",
+    "vite-plugin-inspect": "^0.8.3",
+    "vue": "^3.4.21",
+    "zod": "^3.22.4"
+  },
+  "description": "stack of cool tools for new framework",
+  "bugs": {
+    "url": "https://github.com/Frikadellios/fen4ik/issues"
+  },
+  "homepage": "https://github.com/Frikadellios/fen4ik#readme",
+  "scripts": {
+    "dev": "bunx --bun astro dev --verbose",
+    "start": "bun astro check ** bunx --bun astro dev --verbose",
+    "build": "bun astro check && bunx --bun astro build",
+    "preview": "bun run ./dist/server/entry.mjs",
+    "astro": "astro",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
+}
