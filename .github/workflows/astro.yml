@@ -40,7 +40,7 @@ jobs:
           bun-version: latest
       - name: Detect package manager
         id: detect-package-manager
-        run: |
+        run: 
           - run: bun install
           - run: bun astro check 
           - run: bunx --bun astro build
